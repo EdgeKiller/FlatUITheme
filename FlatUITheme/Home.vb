@@ -1,5 +1,7 @@
-﻿Imports System.Drawing.Drawing2D, System.ComponentModel, System.Windows.Forms
+﻿Imports System.Drawing.Drawing2D
+Imports System.ComponentModel
 Imports System.Drawing
+Imports System.Windows.Forms
 
 ''' <summary>
 ''' Flat UI Theme
@@ -153,7 +155,7 @@ Public Class FormSkin : Inherits ContainerControl
 
     Protected Overrides Sub OnMouseDown(e As MouseEventArgs)
         MyBase.OnMouseDown(e)
-        If e.Button = Windows.Forms.MouseButtons.Left And New Rectangle(0, 0, Width, MoveHeight).Contains(e.Location) Then
+        If e.Button = MouseButtons.Left And New Rectangle(0, 0, Width, MoveHeight).Contains(e.Location) Then
             Cap = True
             MousePoint = e.Location
         End If
@@ -161,7 +163,7 @@ Public Class FormSkin : Inherits ContainerControl
 
     Private Sub FormSkin_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles Me.MouseDoubleClick
         If HeaderMaximize Then
-            If e.Button = Windows.Forms.MouseButtons.Left And New Rectangle(0, 0, Width, MoveHeight).Contains(e.Location) Then
+            If e.Button = MouseButtons.Left And New Rectangle(0, 0, Width, MoveHeight).Contains(e.Location) Then
                 If FindForm.WindowState = FormWindowState.Normal Then
                     FindForm.WindowState = FormWindowState.Maximized : FindForm.Refresh()
                 ElseIf FindForm.WindowState = FormWindowState.Maximized Then
@@ -1740,7 +1742,7 @@ End Class
 
     Private W, H As Integer
     Private State As MouseState = MouseState.None
-    Private WithEvents TB As Windows.Forms.TextBox
+    Private WithEvents TB As TextBox
 
 #End Region
 
@@ -1927,7 +1929,7 @@ End Class
 
         BackColor = Color.Transparent
 
-        TB = New Windows.Forms.TextBox
+        TB = New TextBox
         TB.Font = New Font("Segoe UI", 10)
         TB.Text = Text
         TB.BackColor = _BaseColor
@@ -2521,7 +2523,7 @@ Public Class FlatProgressBar : Inherits Control
 
 End Class
 
-Public Class FlatComboBox : Inherits Windows.Forms.ComboBox
+Public Class FlatComboBox : Inherits ComboBox
 
 #Region " Variables"
 
@@ -3228,7 +3230,7 @@ Public Class FlatListBox : Inherits Control
             ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
 
-        ListBx.DrawMode = Windows.Forms.DrawMode.OwnerDrawFixed
+        ListBx.DrawMode = DrawMode.OwnerDrawFixed
         ListBx.ScrollAlwaysVisible = False
         ListBx.HorizontalScrollbar = False
         ListBx.BorderStyle = BorderStyle.None
@@ -3426,7 +3428,7 @@ End Class
 
     Protected Overrides Sub OnMouseDown(ByVal e As MouseEventArgs)
         MyBase.OnMouseDown(e)
-        If e.Button = Windows.Forms.MouseButtons.Left Then
+        If e.Button = MouseButtons.Left Then
             Val = CInt((_Value - _Minimum) / (_Maximum - _Minimum) * (Width - 11))
             Track = New Rectangle(Val, 0, 10, 20)
 
