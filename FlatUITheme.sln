@@ -1,9 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 2012
+# SharpDevelop 5.1
+VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FlatUITheme", "FlatUITheme\FlatUITheme.vbproj", "{01872705-5369-4CE1-930A-92B4A98A5521}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FlatUITheme", "FlatUITheme\FlatUITheme.vbproj", "{9A3810B8-2A5F-4F01-BCB5-C8AC0FA73CC4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +12,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{01872705-5369-4CE1-930A-92B4A98A5521}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01872705-5369-4CE1-930A-92B4A98A5521}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01872705-5369-4CE1-930A-92B4A98A5521}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01872705-5369-4CE1-930A-92B4A98A5521}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{9A3810B8-2A5F-4F01-BCB5-C8AC0FA73CC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3810B8-2A5F-4F01-BCB5-C8AC0FA73CC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3810B8-2A5F-4F01-BCB5-C8AC0FA73CC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3810B8-2A5F-4F01-BCB5-C8AC0FA73CC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
