@@ -100,7 +100,7 @@ Public Class FormSkin : Inherits ContainerControl
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property HeaderColor() As Color
         Get
             Return _HeaderColor
@@ -109,7 +109,7 @@ Public Class FormSkin : Inherits ContainerControl
             _HeaderColor = value
         End Set
     End Property
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor() As Color
         Get
             Return _BaseColor
@@ -118,7 +118,7 @@ Public Class FormSkin : Inherits ContainerControl
             _BaseColor = value
         End Set
     End Property
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BorderColor() As Color
         Get
             Return _BorderColor
@@ -127,7 +127,7 @@ Public Class FormSkin : Inherits ContainerControl
             _BorderColor = value
         End Set
     End Property
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property FlatColor() As Color
         Get
             Return _FlatColor
@@ -141,7 +141,7 @@ Public Class FormSkin : Inherits ContainerControl
 
 #Region " Options"
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property HeaderMaximize As Boolean
         Get
             Return _HeaderMaximize
@@ -218,7 +218,7 @@ Public Class FormSkin : Inherits ContainerControl
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.White
@@ -308,7 +308,7 @@ Public Class FlatClose : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -318,7 +318,7 @@ Public Class FlatClose : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -340,7 +340,7 @@ Public Class FlatClose : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.White
@@ -431,7 +431,7 @@ Public Class FlatInfo : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -441,7 +441,7 @@ Public Class FlatInfo : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -463,7 +463,7 @@ Public Class FlatInfo : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.White
@@ -556,7 +556,7 @@ Public Class FlatMax : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -566,7 +566,7 @@ Public Class FlatMax : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -593,7 +593,7 @@ Public Class FlatMax : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.White
@@ -689,7 +689,7 @@ Public Class FlatMini : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -699,7 +699,7 @@ Public Class FlatMini : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -726,7 +726,7 @@ Public Class FlatMini : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.White
@@ -788,7 +788,7 @@ Public Class FlatColorPalette : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property Red As Color
         Get
             Return _Red
@@ -798,7 +798,7 @@ Public Class FlatColorPalette : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property Cyan As Color
         Get
             Return _Cyan
@@ -808,7 +808,7 @@ Public Class FlatColorPalette : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property Blue As Color
         Get
             Return _Blue
@@ -818,7 +818,7 @@ Public Class FlatColorPalette : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property LimeGreen As Color
         Get
             Return _LimeGreen
@@ -828,7 +828,7 @@ Public Class FlatColorPalette : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property Orange As Color
         Get
             Return _Orange
@@ -838,7 +838,7 @@ Public Class FlatColorPalette : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property Purple As Color
         Get
             Return _Purple
@@ -849,7 +849,7 @@ Public Class FlatColorPalette : Inherits Control
     End Property
 
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property Gray As Color
         Get
             Return _Gray
@@ -876,7 +876,7 @@ Public Class FlatColorPalette : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.FromArgb(60, 70, 73)
@@ -926,7 +926,7 @@ Public Class FlatGroupBox : Inherits ContainerControl
 
 #Region " Properties"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -954,8 +954,8 @@ Public Class FlatGroupBox : Inherits ContainerControl
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
-                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
+                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or
                  ControlStyles.SupportsTransparentBackColor, True)
         DoubleBuffered = True
         BackColor = Color.Transparent
@@ -1014,7 +1014,7 @@ Public Class FlatButton : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -1024,7 +1024,7 @@ Public Class FlatButton : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -1034,7 +1034,7 @@ Public Class FlatButton : Inherits Control
         End Set
     End Property
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property Rounded As Boolean
         Get
             Return _Rounded
@@ -1077,8 +1077,8 @@ Public Class FlatButton : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
-                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
+                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or
                  ControlStyles.SupportsTransparentBackColor, True)
         DoubleBuffered = True
         Size = New Size(106, 32)
@@ -1175,7 +1175,7 @@ End Class
 #Region " Properties"
     Public Event CheckedChanged(ByVal sender As Object)
 
-    <Flags()> _
+    <Flags()>
     Enum _Options
         Style1
         Style2
@@ -1186,7 +1186,7 @@ End Class
 
 #Region " Options"
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property Options As _Options
         Get
             Return O
@@ -1196,7 +1196,7 @@ End Class
         End Set
     End Property
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property Checked As Boolean
         Get
             Return _Checked
@@ -1257,8 +1257,8 @@ End Class
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
-                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
+                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or
                  ControlStyles.SupportsTransparentBackColor, True)
         DoubleBuffered = True
         BackColor = Color.Transparent
@@ -1420,13 +1420,13 @@ End Class
         InvalidateControls()
     End Sub
 
-    <Flags> _
+    <Flags>
     Enum _Options
         Style1
         Style2
     End Enum
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property Options As _Options
         Get
             Return O
@@ -1472,7 +1472,7 @@ End Class
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                    ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         Cursor = Cursors.Hand
@@ -1574,13 +1574,13 @@ End Class
         MyBase.OnClick(e)
     End Sub
 
-    <Flags> _
+    <Flags>
     Enum _Options
         Style1
         Style2
     End Enum
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property Options As _Options
         Get
             Return O
@@ -1597,7 +1597,7 @@ End Class
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -1607,7 +1607,7 @@ End Class
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BorderColor As Color
         Get
             Return _BorderColor
@@ -1651,7 +1651,7 @@ End Class
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.FromArgb(60, 70, 73)
@@ -1751,7 +1751,7 @@ End Class
 #Region " TextBox Properties"
 
     Private _TextAlign As HorizontalAlignment = HorizontalAlignment.Left
-    <Category("Options")> _
+    <Category("Options")>
     Property TextAlign() As HorizontalAlignment
         Get
             Return _TextAlign
@@ -1764,7 +1764,7 @@ End Class
         End Set
     End Property
     Private _MaxLength As Integer = 32767
-    <Category("Options")> _
+    <Category("Options")>
     Property MaxLength() As Integer
         Get
             Return _MaxLength
@@ -1777,7 +1777,7 @@ End Class
         End Set
     End Property
     Private _ReadOnly As Boolean
-    <Category("Options")> _
+    <Category("Options")>
     Property [ReadOnly]() As Boolean
         Get
             Return _ReadOnly
@@ -1790,7 +1790,7 @@ End Class
         End Set
     End Property
     Private _UseSystemPasswordChar As Boolean
-    <Category("Options")> _
+    <Category("Options")>
     Property UseSystemPasswordChar() As Boolean
         Get
             Return _UseSystemPasswordChar
@@ -1803,7 +1803,7 @@ End Class
         End Set
     End Property
     Private _Multiline As Boolean
-    <Category("Options")> _
+    <Category("Options")>
     Property Multiline() As Boolean
         Get
             Return _Multiline
@@ -1822,7 +1822,7 @@ End Class
             End If
         End Set
     End Property
-    <Category("Options")> _
+    <Category("Options")>
     Overrides Property Text As String
         Get
             Return MyBase.Text
@@ -1834,7 +1834,7 @@ End Class
             End If
         End Set
     End Property
-    <Category("Options")> _
+    <Category("Options")>
     Overrides Property Font As Font
         Get
             Return MyBase.Font
@@ -1889,7 +1889,7 @@ End Class
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -1922,8 +1922,8 @@ End Class
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
-                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
+                 ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or
                  ControlStyles.SupportsTransparentBackColor, True)
         DoubleBuffered = True
 
@@ -2000,7 +2000,7 @@ Public Class FlatTabControl : Inherits TabControl
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -2010,7 +2010,7 @@ Public Class FlatTabControl : Inherits TabControl
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property ActiveColor As Color
         Get
             Return _ActiveColor
@@ -2033,7 +2033,7 @@ Public Class FlatTabControl : Inherits TabControl
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.FromArgb(60, 70, 73)
@@ -2141,7 +2141,7 @@ Public Class FlatAlertBox : Inherits Control
 
 #Region " Properties"
 
-    <Flags()> _
+    <Flags()>
     Enum _Kind
         [Success]
         [Error]
@@ -2150,7 +2150,7 @@ Public Class FlatAlertBox : Inherits Control
 
 #Region " Options"
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property kind As _Kind
         Get
             Return K
@@ -2160,7 +2160,7 @@ Public Class FlatAlertBox : Inherits Control
         End Set
     End Property
 
-    <Category("Options")> _
+    <Category("Options")>
     Overrides Property Text As String
         Get
             Return MyBase.Text
@@ -2173,7 +2173,7 @@ Public Class FlatAlertBox : Inherits Control
         End Set
     End Property
 
-    <Category("Options")> _
+    <Category("Options")>
     Shadows Property Visible As Boolean
         Get
             Return MyBase.Visible = False
@@ -2254,7 +2254,7 @@ Public Class FlatAlertBox : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.FromArgb(60, 70, 73)
@@ -2454,7 +2454,7 @@ Public Class FlatProgressBar : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         BackColor = Color.FromArgb(60, 70, 73)
@@ -2578,7 +2578,7 @@ Public Class FlatComboBox : Inherits ComboBox
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property HoverColor As Color
         Get
             Return _HoverColor
@@ -2623,7 +2623,7 @@ Public Class FlatComboBox : Inherits ComboBox
         End If
 
         '-- Text
-        e.Graphics.DrawString(MyBase.GetItemText(MyBase.Items(e.Index)), New Font("Segoe UI", 8), _
+        e.Graphics.DrawString(MyBase.GetItemText(MyBase.Items(e.Index)), New Font("Segoe UI", 8),
                      Brushes.White, New Rectangle(e.Bounds.X + 2, e.Bounds.Y + 2, e.Bounds.Width, e.Bounds.Height))
 
 
@@ -2646,7 +2646,7 @@ Public Class FlatComboBox : Inherits ComboBox
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
 
@@ -2759,7 +2759,7 @@ Public Class FlatStickyButton : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -2769,7 +2769,7 @@ Public Class FlatStickyButton : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -2779,7 +2779,7 @@ Public Class FlatStickyButton : Inherits Control
         End Set
     End Property
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property Rounded As Boolean
         Get
             Return _Rounded
@@ -2811,8 +2811,8 @@ Public Class FlatStickyButton : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
-        ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
+        ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or
         ControlStyles.SupportsTransparentBackColor, True)
         DoubleBuffered = True
         Size = New Size(106, 32)
@@ -3025,7 +3025,7 @@ Public Class FlatNumeric : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -3035,7 +3035,7 @@ Public Class FlatNumeric : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property ButtonColor As Color
         Get
             Return _ButtonColor
@@ -3057,8 +3057,8 @@ Public Class FlatNumeric : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
-        ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
+        ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer Or
         ControlStyles.SupportsTransparentBackColor, True)
         DoubleBuffered = True
         Font = New Font("Segoe UI", 10)
@@ -3114,7 +3114,7 @@ Public Class FlatListBox : Inherits Control
 
 #Region " Poperties"
 
-    <Category("Options")> _
+    <Category("Options")>
     Public Property items As String()
         Get
             Return _items
@@ -3127,7 +3127,7 @@ Public Class FlatListBox : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property SelectedColor As Color
         Get
             Return _SelectedColor
@@ -3226,7 +3226,7 @@ Public Class FlatListBox : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
             ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
 
@@ -3298,7 +3298,7 @@ Public Class FlatContextMenuStrip : Inherits ContextMenuStrip
 
 #Region " Colors"
 
-        <Category("Colors")> _
+        <Category("Colors")>
         Public Property _BackColor As Color
             Get
                 Return BackColor
@@ -3308,7 +3308,7 @@ Public Class FlatContextMenuStrip : Inherits ContextMenuStrip
             End Set
         End Property
 
-        <Category("Colors")> _
+        <Category("Colors")>
         Public Property _CheckedColor As Color
             Get
                 Return CheckedColor
@@ -3318,7 +3318,7 @@ Public Class FlatContextMenuStrip : Inherits ContextMenuStrip
             End Set
         End Property
 
-        <Category("Colors")> _
+        <Category("Colors")>
         Public Property _BorderColor As Color
             Get
                 Return BorderColor
@@ -3451,7 +3451,7 @@ End Class
 
 #Region " Styles"
 
-    <Flags> _
+    <Flags>
     Enum _Style
         Slider
         Knob
@@ -3470,7 +3470,7 @@ End Class
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TrackColor As Color
         Get
             Return _TrackColor
@@ -3480,7 +3480,7 @@ End Class
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property HatchColor As Color
         Get
             Return _HatchColor
@@ -3582,7 +3582,7 @@ End Class
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         Height = 18
@@ -3666,7 +3666,7 @@ Public Class FlatStatusBar : Inherits Control
 
 #Region " Colors"
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property BaseColor As Color
         Get
             Return _BaseColor
@@ -3676,7 +3676,7 @@ Public Class FlatStatusBar : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property TextColor As Color
         Get
             Return _TextColor
@@ -3686,7 +3686,7 @@ Public Class FlatStatusBar : Inherits Control
         End Set
     End Property
 
-    <Category("Colors")> _
+    <Category("Colors")>
     Public Property RectColor As Color
         Get
             Return _RectColor
@@ -3722,7 +3722,7 @@ Public Class FlatStatusBar : Inherits Control
 #End Region
 
     Sub New()
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
         Font = New Font("Segoe UI", 8)
@@ -3829,7 +3829,7 @@ Public Class FlatTreeView : Inherits TreeView
 #End Region
     Sub New()
 
-        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or _
+        SetStyle(ControlStyles.AllPaintingInWmPaint Or ControlStyles.UserPaint Or
                  ControlStyles.ResizeRedraw Or ControlStyles.OptimizedDoubleBuffer, True)
         DoubleBuffered = True
 
